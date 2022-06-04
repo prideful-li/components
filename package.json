@@ -1,0 +1,38 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "Shared component library",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prideful-li/components.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prideful-li/components/issues"
+  },
+  "homepage": "https://github.com/prideful-li/components#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.39",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.52.2",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "vue": "^3.2.36"
+  }
+}
